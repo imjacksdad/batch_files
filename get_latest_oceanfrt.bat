@@ -1,0 +1,1 @@
+for /f %%i in ('dir *OceanFrtVouch*.csv /b/od/t:w') do set LAST=%%i  & MOVE %%i \\tedfil01\InformaticaDEV\Process\BSM\OceanFrtVouch.csv & EXIT
