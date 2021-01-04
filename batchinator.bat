@@ -1,4 +1,4 @@
-
+REM - PROGRAM TO RUN SEVERAL BATCH FILES IN A ROW
 @echo on
 for /f %%A in ('dir *.csv /a-d-s-h /b ^| find /v /c ""') do set cnt=%%A
 echo File count = %cnt%
