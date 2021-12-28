@@ -3,7 +3,7 @@ setlocal
 rem change to the correct directory
 cd /d N:\Archive\BSM
 pause
-rem list the files in the dir
+rem list the files in the directory
 dir /b *Ocean*.csv >> oceanlist1.txt
 pause
 rem for /f "tokens=*" %%A in (list1.txt) do echo %%~nxA
